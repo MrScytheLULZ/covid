@@ -28,8 +28,7 @@
 5. create an installation file to make the target get infected and configure it on server.py and client.py
 for example:
 
-use a python compiler to compile client.py
-
+use a python compiler to compile client.py,
 then create a bash script that downloads the used wordlist, the compiled client and runs the client:
 ```
 #!/bin/bash
