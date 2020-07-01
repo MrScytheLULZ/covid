@@ -29,7 +29,7 @@
 for example:
 
 use a python compiler to compile client.py,
-then create a bash script that downloads the used wordlist, the compiled client and runs the client:
+then create a bash script that downloads the chosen wordlist, the compiled client and runs the client:
 ```
 #!/bin/bash
 cnc_ip="your cnc"
