@@ -1,5 +1,4 @@
 # Covid v2 Botnet
-***This software is provided under the MIT license***
 
 ***Disclaimers: this botnet is for educational purpose and ethical use only! any other use is on the user's own responsibility, and we are not responsible for any of the user's usage of it!***
 
